@@ -15,6 +15,7 @@
     "start": "ember server",
     "test": "ember test"
   },
+
   "devDependencies": {
     "bootstrap": "4.0.0-alpha.6",
     "broccoli-asset-rev": "^2.4.5",
