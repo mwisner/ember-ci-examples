@@ -2356,7 +2356,7 @@ ember-cli-app-version@^3.0.0:
     ember-cli-babel "^6.8.0"
     git-repo-version "0.4.1"
 
-ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4:
+ember-cli-babel@^5.1.5, ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4:
   version "5.2.4"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-5.2.4.tgz#5ce4f46b08ed6f6d21e878619fb689719d6e8e13"
   dependencies:
@@ -2366,7 +2366,7 @@ ember-cli-babel@^5.1.6, ember-cli-babel@^5.1.7, ember-cli-babel@^5.2.4:
     ember-cli-version-checker "^1.0.2"
     resolve "^1.1.2"
 
-ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.0.0-beta.9, ember-cli-babel@^6.1.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.4.1, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1:
+ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-beta.7, ember-cli-babel@^6.0.0-beta.9, ember-cli-babel@^6.1.0, ember-cli-babel@^6.3.0, ember-cli-babel@^6.4.1, ember-cli-babel@^6.6.0, ember-cli-babel@^6.8.0, ember-cli-babel@^6.8.1, ember-cli-babel@^6.8.2:
   version "6.8.2"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.8.2.tgz#eac2785964f4743f4c815cd53c6288f00cc087d7"
   dependencies:
@@ -2515,6 +2515,22 @@ ember-cli-legacy-blueprints@^0.1.2:
 ember-cli-lodash-subset@^1.0.11, ember-cli-lodash-subset@^1.0.7:
   version "1.0.12"
   resolved "https://registry.yarnpkg.com/ember-cli-lodash-subset/-/ember-cli-lodash-subset-1.0.12.tgz#af2e77eba5dcb0d77f3308d3a6fd7d3450f6e537"
+
+ember-cli-moment-shim@^3.5.0:
+  version "3.5.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-moment-shim/-/ember-cli-moment-shim-3.5.0.tgz#7ea8d42b0a04c767258287b30447681e52fba0c4"
+  dependencies:
+    broccoli-funnel "^2.0.0"
+    broccoli-merge-trees "^2.0.0"
+    broccoli-source "^1.1.0"
+    broccoli-stew "^1.5.0"
+    chalk "^1.1.3"
+    ember-cli-babel "^6.8.2"
+    ember-cli-import-polyfill "^0.2.0"
+    exists-sync "^0.0.4"
+    lodash.defaults "^4.2.0"
+    moment "^2.18.1"
+    moment-timezone "^0.5.13"
 
 ember-cli-normalize-entity-name@^1.0.0:
   version "1.0.0"
@@ -2870,7 +2886,7 @@ ember-getowner-polyfill@^1.1.0, ember-getowner-polyfill@^1.1.1, ember-getowner-p
     ember-cli-version-checker "^1.2.0"
     ember-factory-for-polyfill "^1.1.0"
 
-ember-getowner-polyfill@^2.0.0:
+ember-getowner-polyfill@^2.0.0, ember-getowner-polyfill@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/ember-getowner-polyfill/-/ember-getowner-polyfill-2.0.1.tgz#9bfe2b4d527ed174e76fef2c8f30937d77cb66fb"
   dependencies:
@@ -2889,6 +2905,23 @@ ember-load-initializers@^1.0.0:
   dependencies:
     ember-cli-babel "^6.0.0-beta.7"
 
+ember-macro-helpers@^0.15.1:
+  version "0.15.1"
+  resolved "https://registry.yarnpkg.com/ember-macro-helpers/-/ember-macro-helpers-0.15.1.tgz#a402651fafb3a25b3612a8c09843bc4061553a13"
+  dependencies:
+    ember-cli-babel "^6.0.0"
+    ember-cli-string-utils "^1.1.0"
+    ember-cli-test-info "^1.0.0"
+    ember-weakmap "^2.0.0"
+
+ember-math-helpers@^2.2.3:
+  version "2.2.3"
+  resolved "https://registry.yarnpkg.com/ember-math-helpers/-/ember-math-helpers-2.2.3.tgz#86d0ba90ce5577d5b574762ad3d132dd4b6209db"
+  dependencies:
+    broccoli-funnel "^1.2.0"
+    ember-cli-babel "^6.8.1"
+    ember-cli-htmlbars "^2.0.3"
+
 ember-maybe-import-regenerator@^0.1.5:
   version "0.1.6"
   resolved "https://registry.yarnpkg.com/ember-maybe-import-regenerator/-/ember-maybe-import-regenerator-0.1.6.tgz#35d41828afa6d6a59bc0da3ce47f34c573d776ca"
@@ -2898,12 +2931,28 @@ ember-maybe-import-regenerator@^0.1.5:
     ember-cli-babel "^6.0.0-beta.4"
     regenerator-runtime "^0.9.5"
 
+ember-moment@^7.4.1:
+  version "7.4.1"
+  resolved "https://registry.yarnpkg.com/ember-moment/-/ember-moment-7.4.1.tgz#88018c4d981643bb4521ad39539f60ba3ec6bf42"
+  dependencies:
+    ember-cli-babel "^6.6.0"
+    ember-getowner-polyfill "^2.0.1"
+    ember-macro-helpers "^0.15.1"
+
 ember-native-dom-helpers@^0.5.3:
   version "0.5.4"
   resolved "https://registry.yarnpkg.com/ember-native-dom-helpers/-/ember-native-dom-helpers-0.5.4.tgz#0bc1506a643fb7adc0abf1d09c44a7914459296b"
   dependencies:
     broccoli-funnel "^1.1.0"
     ember-cli-babel "^6.6.0"
+
+ember-page-title@^3.2.2:
+  version "3.2.2"
+  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-3.2.2.tgz#241effbc8228ecfb75e33540f6707003fdf6db31"
+  dependencies:
+    ember-cli-babel "^6.0.0"
+    ember-cli-head "^0.3.1"
+    ember-cli-htmlbars "^2.0.1"
 
 ember-power-select@^1.9.6:
   version "1.9.6"
@@ -3056,6 +3105,18 @@ ember-try@^0.2.15:
     rimraf "^2.3.2"
     rsvp "^3.0.17"
     semver "^5.1.0"
+
+ember-uuid@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-uuid/-/ember-uuid-1.0.0.tgz#0932f2b56d64417cab892d96e3cc69f895356df7"
+  dependencies:
+    ember-cli-babel "^5.1.5"
+
+ember-weakmap@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/ember-weakmap/-/ember-weakmap-2.0.0.tgz#71c6819a8bfd0b077ae17ca1d9053fc5db06e4ac"
+  dependencies:
+    ember-cli-babel "^5.1.6"
 
 ember-welcome-page@^3.0.0:
   version "3.1.1"
@@ -3339,7 +3400,7 @@ exists-sync@0.0.3:
   version "0.0.3"
   resolved "https://registry.yarnpkg.com/exists-sync/-/exists-sync-0.0.3.tgz#b910000bedbb113b378b82f5f5a7638107622dcf"
 
-exists-sync@0.0.4:
+exists-sync@0.0.4, exists-sync@^0.0.4:
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/exists-sync/-/exists-sync-0.0.4.tgz#9744c2c428cc03b01060db454d4b12f0ef3c8879"
 
@@ -4862,6 +4923,10 @@ lodash.debounce@^3.1.1:
   dependencies:
     lodash._getnative "^3.0.0"
 
+lodash.defaults@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-4.2.0.tgz#d09178716ffea4dde9e5fb7b37f6f0802274580c"
+
 lodash.defaults@~2.3.0:
   version "2.3.0"
   resolved "https://registry.yarnpkg.com/lodash.defaults/-/lodash.defaults-2.3.0.tgz#a832b001f138f3bb9721c2819a2a7cc5ae21ed25"
@@ -5309,6 +5374,16 @@ mkdirp@^0.3.5:
 mktemp@~0.4.0:
   version "0.4.0"
   resolved "https://registry.yarnpkg.com/mktemp/-/mktemp-0.4.0.tgz#6d0515611c8a8c84e484aa2000129b98e981ff0b"
+
+moment-timezone@^0.5.13:
+  version "0.5.13"
+  resolved "https://registry.yarnpkg.com/moment-timezone/-/moment-timezone-0.5.13.tgz#99ce5c7d827262eb0f1f702044177f60745d7b90"
+  dependencies:
+    moment ">= 2.9.0"
+
+"moment@>= 2.9.0", moment@^2.18.1:
+  version "2.18.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.18.1.tgz#c36193dd3ce1c2eed2adb7c802dbbc77a81b1c0f"
 
 morgan@^1.8.1:
   version "1.8.2"
