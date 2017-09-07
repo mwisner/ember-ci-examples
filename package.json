@@ -5,7 +5,7 @@
   "description": "Small description for ember-circleci-example goes here",
   "license": "MIT",
   "author": "",
-  "directories": {
+ "directories": {
     "doc": "doc",
     "test": "tests"
   },
@@ -53,15 +53,10 @@
     "ember-export-application-global": "^2.0.0",
     "ember-feature-flags": "^3.0.0",
     "ember-fetch": "^3.3.0",
-    "ember-file-upload": "^2.1.1",
     "ember-font-awesome": "^3.0.5",
     "ember-freestyle": "^0.6.1",
     "ember-full-story": "^0.1.1",
-    "ember-light-table": "^1.8.6",
     "ember-load-initializers": "^1.0.0",
-    "ember-metrics": "^0.12.0",
-    "ember-mobiledoc-dom-renderer": "^0.5.11",
-    "ember-mobiledoc-editor": "^0.5.11",
     "ember-moment": "^7.3.1",
     "ember-page-title": "^3.1.6",
     "ember-power-calendar": "^0.5.0",
@@ -80,7 +75,7 @@
     "loader.js": "^4.2.3",
     "prettier": "^1.6.1"
   },
-  "engines": {
+"engines": {
     "node": "^4.5 || 6.* || >= 7.*"
   }
 }
