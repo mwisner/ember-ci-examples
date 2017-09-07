@@ -3336,12 +3336,6 @@ ember-try@^0.2.15:
     rsvp "^3.0.17"
     semver "^5.1.0"
 
-ember-uuid@^1.0.0:
-  version "1.0.0"
-  resolved "https://registry.yarnpkg.com/ember-uuid/-/ember-uuid-1.0.0.tgz#0932f2b56d64417cab892d96e3cc69f895356df7"
-  dependencies:
-    ember-cli-babel "^5.1.5"
-
 ember-validators@^1.0.0:
   version "1.0.3"
   resolved "https://registry.yarnpkg.com/ember-validators/-/ember-validators-1.0.3.tgz#cef76b6526d12011ab685238762e3256dad812b4"
