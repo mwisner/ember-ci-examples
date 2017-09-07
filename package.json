@@ -15,6 +15,7 @@
     "start": "ember server",
     "test": "ember test"
   },
+
   "devDependencies": {
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
