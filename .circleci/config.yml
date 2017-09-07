@@ -1,0 +1,41 @@
+version: 2
+
+jobs:
+    build:
+        working_directory: ~/app
+        docker:
+            - image: circleci/node:8-browsers
+              environment:
+                CHROME_BIN: "/usr/bin/google-chrome"
+        steps:
+
+            ##
+            # SETUP
+            ##
+            - checkout
+
+            - run:
+                name: Install node global dependencies
+                command: |
+                  sudo npm install -g yarn \
+                    ember-cli
+            ##
+            # NPM
+            ##
+            - restore_cache:
+                key: dependency-cache-{{ checksum "package.json" }}
+            - run:
+                name: Install npm dependencies
+                command: yarn install
+            - save_cache:
+                key: dependency-cache-{{ checksum "package.json" }}
+                paths:
+                    - ./node_modules
+
+            ##
+            # TESTS
+            ##
+            - run:
+                name: Run Ember Tests
+                command: |
+                  ember build
