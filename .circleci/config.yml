@@ -17,6 +17,8 @@ jobs:
             - run:
                 name: Install node global dependencies
                 command: |
+                  node -e "require('os').cpus().length; console.log(os.cpus().length);"
+
                   sudo npm install -g yarn \
                     ember-cli
             ##
@@ -38,4 +40,5 @@ jobs:
             - run:
                 name: Run Ember Tests
                 command: |
+
                   DEBUG=* ember test
