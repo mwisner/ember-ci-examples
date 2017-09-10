@@ -57,6 +57,7 @@
     "ember-font-awesome": "^3.0.5",
     "ember-freestyle": "^0.6.1",
     "ember-full-story": "^0.1.1",
+    "ember-light-table": "^1.10.0",
     "ember-load-initializers": "^1.0.0",
     "ember-moment": "^7.3.1",
     "ember-page-title": "^3.1.6",
