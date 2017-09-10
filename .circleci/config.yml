@@ -17,8 +17,7 @@ jobs:
             - run:
                 name: Install node global dependencies
                 command: |
-                   node -e "console.log(require('os').cpus().length);"
-
+                  node -e "console.log(require('os').cpus().length);"
                   sudo npm install -g yarn \
                     ember-cli
             ##
