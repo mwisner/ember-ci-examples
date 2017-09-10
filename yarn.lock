@@ -2384,12 +2384,12 @@ ember-bootstrap@^1.0.0-alpha.12:
     rsvp "^4.0.1"
     silent-error "^1.0.1"
 
-ember-burger-menu@mwisner/ember-burger-menu#feat/deps:
+ember-burger-menu@^3.0.0:
   version "3.0.0"
-  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/3df91fa092b49f083df06a5ba3c1b188bce56645"
+  resolved "https://registry.yarnpkg.com/ember-burger-menu/-/ember-burger-menu-3.0.0.tgz#6fcadcc9eb90af4d4034b6aeba9c7716d4dce36b"
   dependencies:
-    ember-cli-babel "^6.8.2"
-    ember-cli-htmlbars "^2.0.3"
+    ember-cli-babel "^5.2.4"
+    ember-cli-htmlbars "^1.1.1"
     ember-lifeline "^1.0.4"
     ember-require-module "^0.1.1"
     ember-wormhole "^0.5.0"
@@ -4819,8 +4819,8 @@ jquery@>=1.9.1, jquery@^3.2.1:
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.2.1.tgz#5c4d9de652af6cd0a770154a631bba12b015c787"
 
 js-base64@^2.1.8:
-  version "2.1.9"
-  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
+  version "2.2.0"
+  resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.2.0.tgz#5e8a8d193a908198dd23d1704826d207b0e5a8f6"
 
 js-reporters@1.2.0:
   version "1.2.0"
@@ -6925,8 +6925,8 @@ source-map-support@^0.2.10:
     source-map "0.1.32"
 
 source-map-support@^0.4.0, source-map-support@^0.4.15:
-  version "0.4.17"
-  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.17.tgz#6f2150553e6375375d0ccb3180502b78c18ba430"
+  version "0.4.18"
+  resolved "https://registry.yarnpkg.com/source-map-support/-/source-map-support-0.4.18.tgz#0286a6de8be42641338594e97ccea75f0a2c585f"
   dependencies:
     source-map "^0.5.6"
 
