@@ -2345,12 +2345,12 @@ ember-bootstrap@^1.0.0-alpha.12:
     rsvp "^4.0.1"
     silent-error "^1.0.1"
 
-ember-burger-menu@mwisner/ember-burger-menu#feat/deps:
+ember-burger-menu@mwisner/ember-burger-menu#test/215:
   version "3.0.0"
-  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/3df91fa092b49f083df06a5ba3c1b188bce56645"
+  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/8955601a0ad3258074279f0408c72c12f22ae5dd"
   dependencies:
-    ember-cli-babel "^6.8.2"
-    ember-cli-htmlbars "^2.0.3"
+    ember-cli-babel "^5.2.4"
+    ember-cli-htmlbars "^1.1.1"
     ember-lifeline "^1.0.4"
     ember-require-module "^0.1.1"
     ember-wormhole "^0.5.0"

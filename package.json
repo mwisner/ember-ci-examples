@@ -23,7 +23,7 @@
     "ember-block-slots": "^1.1.10",
     "ember-bootstrap": "^1.0.0-alpha.12",
     "ember-bootstrap-changeset-validations": "^1.0.0-alpha.2",
-    "ember-burger-menu": "mwisner/ember-burger-menu#feat/deps",
+    "ember-burger-menu": "mwisner/ember-burger-menu#test/215",
     "ember-changeset": "^1.3.0",
     "ember-changeset-validations": "^1.2.8",
     "ember-chrome-devtools": "^0.1.3",
