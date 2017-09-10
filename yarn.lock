@@ -2347,10 +2347,10 @@ ember-bootstrap@^1.0.0-alpha.12:
 
 ember-burger-menu@mwisner/ember-burger-menu#test/215:
   version "3.0.0"
-  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/7714b956a329419ea8981d1f17cefd8776292810"
+  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/6ee4109a1625a5d18feb6801c1c46f871eb744d7"
   dependencies:
-    ember-cli-babel "^5.2.4"
-    ember-cli-htmlbars "^1.1.1"
+    ember-cli-babel "^6.8.2"
+    ember-cli-htmlbars "^2.0.1"
     ember-lifeline "^1.0.4"
     ember-require-module "^0.1.1"
     ember-wormhole "^0.5.0"
