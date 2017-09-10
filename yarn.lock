@@ -2345,12 +2345,12 @@ ember-bootstrap@^1.0.0-alpha.12:
     rsvp "^4.0.1"
     silent-error "^1.0.1"
 
-ember-burger-menu@^3.0.0:
+ember-burger-menu@mwisner/ember-burger-menu#feat/deps:
   version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ember-burger-menu/-/ember-burger-menu-3.0.0.tgz#6fcadcc9eb90af4d4034b6aeba9c7716d4dce36b"
+  resolved "https://codeload.github.com/mwisner/ember-burger-menu/tar.gz/3df91fa092b49f083df06a5ba3c1b188bce56645"
   dependencies:
-    ember-cli-babel "^5.2.4"
-    ember-cli-htmlbars "^1.1.1"
+    ember-cli-babel "^6.8.2"
+    ember-cli-htmlbars "^2.0.3"
     ember-lifeline "^1.0.4"
     ember-require-module "^0.1.1"
     ember-wormhole "^0.5.0"
@@ -5965,8 +5965,8 @@ parseuri@0.0.5:
     better-assert "~1.0.0"
 
 parseurl@~1.3.1:
-  version "1.3.1"
-  resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.1.tgz#c8ab8c9223ba34888aa64a297b28853bec18da56"
+  version "1.3.2"
+  resolved "https://registry.yarnpkg.com/parseurl/-/parseurl-1.3.2.tgz#fc289d4ed8993119460c156253262cdc8de65bf3"
 
 pascalcase@^0.1.1:
   version "0.1.1"
