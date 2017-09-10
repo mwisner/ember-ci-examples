@@ -38,4 +38,4 @@ jobs:
             - run:
                 name: Run Ember Tests
                 command: |
-                  JOBS=1 ember test
+                  DEBUG=* ember test
