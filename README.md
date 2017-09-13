@@ -4,7 +4,15 @@ The intent of this project is to create one sample project with many different C
 Assuming they have some sort of open source free plan.
 
 # CI Tools
+| Tool  | Builds |
+| ------------- | ------------- |
+| CircleCI 2.0  | https://circleci.com/gh/mwisner/ember-ci-examples  |
+| Travis CI | https://travis-ci.org/mwisner/ember-ci-examples  |
 
 
 # Contributing
 PRs welcome for new CI tools.
+
+# TODO
+- ember-exam? 
+- ember-try?
