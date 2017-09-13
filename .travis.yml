@@ -10,7 +10,7 @@ addons:
   chrome: stable
 
 env:
-  - JOBS=1
+  - JOBS=1 # https://github.com/emberjs/ember.js/issues/15641
 
 cache:
   directories:
@@ -18,3 +18,7 @@ cache:
 
 before_install:
   - npm config set spin false
+  - yarn global add greenkeeper-lockfile@1
+
+before_script: greenkeeper-lockfile-update
+after_script: greenkeeper-lockfile-upload

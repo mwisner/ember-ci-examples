@@ -7,6 +7,7 @@ jobs:
             - image: circleci/node:8-browsers
               environment:
                 CHROME_BIN: "/usr/bin/google-chrome"
+                JOBS: 1 # https://github.com/emberjs/ember.js/issues/15641
         steps:
 
             ##
@@ -17,9 +18,9 @@ jobs:
             - run:
                 name: Install node global dependencies
                 command: |
-                  node -e "console.log(require('os').cpus().length);"
                   sudo npm install -g yarn \
                     ember-cli
+                    greenkeeper-lockfile@1
             ##
             # NPM
             ##
@@ -36,7 +37,22 @@ jobs:
             ##
             # TESTS
             ##
+
+            # Used for https://greenkeeper.io/ support
+            - run:
+                name: Greenkeeper - Update Lockfile
+                command: |
+                  ember test
+
+
+            # Run Default Ember Tests
             - run:
                 name: Run Ember Tests
                 command: |
-                  JOBS=1 ember test
+                  ember test
+
+            # Used for https://greenkeeper.io/ support
+            - run:
+                name: Greenkeeper - Upload Lockfile
+                command: |
+                  ember test
