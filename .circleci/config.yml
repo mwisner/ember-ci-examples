@@ -20,7 +20,7 @@ jobs:
                 command: |
                   sudo npm install -g yarn \
                     ember-cli
-                    greenkeeper-lockfile@1
+                    greenkeeper-lockfile
             ##
             # NPM
             ##
