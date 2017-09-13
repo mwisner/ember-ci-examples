@@ -42,7 +42,7 @@ jobs:
             - run:
                 name: Greenkeeper - Update Lockfile
                 command: |
-                  ember test
+                  greenkeeper-lockfile-update
 
 
             # Run Default Ember Tests
@@ -55,4 +55,4 @@ jobs:
             - run:
                 name: Greenkeeper - Upload Lockfile
                 command: |
-                  ember test
+                  greenkeeper-lockfile-upload
