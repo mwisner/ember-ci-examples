@@ -1,5 +1,7 @@
 # Ember CI Examples
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/mwisner/ember-ci-examples.svg)](https://greenkeeper.io/)
+
 The intent of this project is to create one sample project with many different CI examples.
 Assuming they have some sort of open source free plan.
 
