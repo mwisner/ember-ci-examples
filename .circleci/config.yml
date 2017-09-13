@@ -49,7 +49,7 @@ jobs:
             - run:
                 name: Run Ember Tests
                 command: |
-                  ember test
+                  ember try:each
 
             # Used for https://greenkeeper.io/ support
             - run:
