@@ -10,7 +10,7 @@ addons:
   chrome: stable
 
 env:
-  - JOBS=1
+  - JOBS=1 # https://github.com/emberjs/ember.js/issues/15641
 
 cache:
   directories:
