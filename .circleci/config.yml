@@ -19,7 +19,7 @@ jobs:
                 name: Install node global dependencies
                 command: |
                   sudo npm install -g yarn \
-                    ember-cli
+                    ember-cli \
                     greenkeeper-lockfile
             ##
             # NPM
