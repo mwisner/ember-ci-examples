@@ -18,7 +18,3 @@ cache:
 
 before_install:
   - npm config set spin false
-  - yarn global add greenkeeper-lockfile@1
-
-before_script: greenkeeper-lockfile-update
-after_script: greenkeeper-lockfile-upload
