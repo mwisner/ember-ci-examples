@@ -15,11 +15,13 @@ jobs:
             ##
             - checkout
 
+            # Bower is required because of https://github.com/ember-cli/ember-try/issues/141
             - run:
                 name: Install node global dependencies
                 command: |
                   sudo npm install -g yarn \
                     ember-cli \
+                    bower \
                     greenkeeper-lockfile
             ##
             # NPM
@@ -49,7 +51,7 @@ jobs:
             - run:
                 name: Run Ember Tests
                 command: |
-                  ember test
+                  ember try:each
 
             # Used for https://greenkeeper.io/ support
             - run:

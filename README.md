@@ -25,7 +25,5 @@ execution where possible.
 PRs welcome for new CI tools.
 
 # TODO
-- ember-exam? 
-- ember-try?
-
+- ember-exam?
 
