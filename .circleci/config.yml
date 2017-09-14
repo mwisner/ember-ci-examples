@@ -15,6 +15,7 @@ jobs:
             ##
             - checkout
 
+            # Bower is required because of https://github.com/ember-cli/ember-try/issues/141
             - run:
                 name: Install node global dependencies
                 command: |
