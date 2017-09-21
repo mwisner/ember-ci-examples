@@ -2413,9 +2413,9 @@ ember-changeset@1.3.0, ember-changeset@^1.3.0:
   dependencies:
     ember-cli-babel "^5.1.7"
 
-ember-chrome-devtools@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.yarnpkg.com/ember-chrome-devtools/-/ember-chrome-devtools-0.1.3.tgz#ae9ce774860f0ff0d905c5897b21a80438ca5f89"
+ember-chrome-devtools@0.2.0:
+  version "0.2.0"
+  resolved "https://registry.yarnpkg.com/ember-chrome-devtools/-/ember-chrome-devtools-0.2.0.tgz#f3287ddf60d0ea9127c93292de86fff2f1c36df8"
   dependencies:
     ember-cli-babel "^6.0.0"
 
@@ -2728,16 +2728,16 @@ ember-cli-uglify@^1.2.0:
   dependencies:
     broccoli-uglify-sourcemap "^1.0.0"
 
-ember-cli-update@0.7.0:
-  version "0.7.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.7.0.tgz#acde1106ee6f6076478996f7b22fcd05a314503d"
+ember-cli-update@^0.7.0:
+  version "0.7.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.7.1.tgz#cf85dbbfaf18d764a035e20b59c167489739df40"
   dependencies:
     debug "^3.0.0"
-    git-diff-apply "^0.4.0"
+    git-diff-apply "^0.4.1"
     rfc6902-ordered "^1.0.0"
     semver "^5.4.1"
     three-way-merger "^0.3.0"
-    yargs "^8.0.2"
+    yargs "^9.0.1"
 
 ember-cli-valid-component-name@^1.0.0:
   version "1.0.0"
@@ -4121,9 +4121,9 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-diff-apply@^0.4.0:
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.4.0.tgz#55192f03c946b4cb95d364cc597c419f9b5e44dd"
+git-diff-apply@^0.4.1:
+  version "0.4.1"
+  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.4.1.tgz#5a9baad0daaa99fc224de82ee2a6545039db8c46"
   dependencies:
     debug "^3.0.0"
     denodeify "^1.2.1"
@@ -4131,7 +4131,7 @@ git-diff-apply@^0.4.0:
     ncp "^2.0.0"
     tmp "0.0.33"
     uuid "^3.1.0"
-    yargs "^8.0.2"
+    yargs "^9.0.1"
 
 git-repo-info@^1.1.2, git-repo-info@^1.4.1:
   version "1.4.1"
@@ -7808,9 +7808,27 @@ yargs@^7.0.0:
     y18n "^3.2.1"
     yargs-parser "^5.0.0"
 
-yargs@^8.0.1, yargs@^8.0.2:
+yargs@^8.0.1:
   version "8.0.2"
   resolved "https://registry.yarnpkg.com/yargs/-/yargs-8.0.2.tgz#6299a9055b1cefc969ff7e79c1d918dceb22c360"
+  dependencies:
+    camelcase "^4.1.0"
+    cliui "^3.2.0"
+    decamelize "^1.1.1"
+    get-caller-file "^1.0.1"
+    os-locale "^2.0.0"
+    read-pkg-up "^2.0.0"
+    require-directory "^2.1.1"
+    require-main-filename "^1.0.1"
+    set-blocking "^2.0.0"
+    string-width "^2.0.0"
+    which-module "^2.0.0"
+    y18n "^3.2.1"
+    yargs-parser "^7.0.0"
+
+yargs@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/yargs/-/yargs-9.0.1.tgz#52acc23feecac34042078ee78c0c007f5085db4c"
   dependencies:
     camelcase "^4.1.0"
     cliui "^3.2.0"
