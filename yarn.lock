@@ -2413,7 +2413,7 @@ ember-changeset@1.3.0, ember-changeset@^1.3.0:
   dependencies:
     ember-cli-babel "^5.1.7"
 
-ember-chrome-devtools@0.2.0:
+ember-chrome-devtools@^0.2.0:
   version "0.2.0"
   resolved "https://registry.yarnpkg.com/ember-chrome-devtools/-/ember-chrome-devtools-0.2.0.tgz#f3287ddf60d0ea9127c93292de86fff2f1c36df8"
   dependencies:
@@ -3120,7 +3120,18 @@ ember-power-select-blockless@0.3.1:
     ember-cli-htmlbars "^1.0.3"
     ember-power-select "^1.5.0"
 
-ember-power-select@1.9.6, ember-power-select@^1.5.0:
+ember-power-select@1.9.7:
+  version "1.9.7"
+  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.7.tgz#5b1d739f170dc42e25ada741c5373dd5b88d0ae2"
+  dependencies:
+    ember-basic-dropdown "^0.33.1"
+    ember-cli-babel "^6.6.0"
+    ember-cli-htmlbars "^2.0.1"
+    ember-concurrency "^0.8.1"
+    ember-text-measurer "^0.3.3"
+    ember-truth-helpers "^1.3.0"
+
+ember-power-select@^1.5.0:
   version "1.9.6"
   resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.6.tgz#3cb5245932db9174801c830497750b5e5c9dc786"
   dependencies:
