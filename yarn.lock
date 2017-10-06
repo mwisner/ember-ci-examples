@@ -2531,6 +2531,13 @@ ember-cli-head@^0.3.1:
     ember-cli-babel "^6.1.0"
     ember-cli-htmlbars "^2.0.1"
 
+ember-cli-head@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ember-cli-head/-/ember-cli-head-0.4.0.tgz#348f7595cee5bcb024a87d1c72c8d55fedda32f7"
+  dependencies:
+    ember-cli-babel "^6.1.0"
+    ember-cli-htmlbars "^2.0.1"
+
 ember-cli-htmlbars-inline-precompile@^1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/ember-cli-htmlbars-inline-precompile/-/ember-cli-htmlbars-inline-precompile-1.0.2.tgz#5b544f664d5d9911f08cd979c5f70d8cb0ca2add"
@@ -2728,7 +2735,7 @@ ember-cli-test-loader@^2.2.0:
   dependencies:
     ember-cli-babel "^6.8.1"
 
-ember-cli-uglify@2.0.0:
+ember-cli-uglify@^2.0.0:
   version "2.0.0"
   resolved "https://registry.yarnpkg.com/ember-cli-uglify/-/ember-cli-uglify-2.0.0.tgz#b096727d7d1718acc9bfe5d1bc81ce26cafdf6ca"
   dependencies:
@@ -3127,9 +3134,9 @@ ember-power-select-blockless@0.3.1:
     ember-cli-htmlbars "^1.0.3"
     ember-power-select "^1.5.0"
 
-ember-power-select@1.9.7:
-  version "1.9.7"
-  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.7.tgz#5b1d739f170dc42e25ada741c5373dd5b88d0ae2"
+ember-power-select@1.9.9:
+  version "1.9.9"
+  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.9.tgz#24b733f5be603a434dffdb57dffe702759448ca5"
   dependencies:
     ember-basic-dropdown "^0.33.1"
     ember-cli-babel "^6.6.0"
