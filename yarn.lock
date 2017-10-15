@@ -3134,9 +3134,9 @@ ember-power-select-blockless@0.3.1:
     ember-cli-htmlbars "^1.0.3"
     ember-power-select "^1.5.0"
 
-ember-power-select@1.9.9:
-  version "1.9.9"
-  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.9.tgz#24b733f5be603a434dffdb57dffe702759448ca5"
+ember-power-select@1.9.10:
+  version "1.9.10"
+  resolved "https://registry.yarnpkg.com/ember-power-select/-/ember-power-select-1.9.10.tgz#7e83ee7cef182687a8eecb77134ebbdc433c8443"
   dependencies:
     ember-basic-dropdown "^0.33.1"
     ember-cli-babel "^6.6.0"
