@@ -2855,16 +2855,16 @@ ember-cli-uglify@^2.0.0:
     broccoli-uglify-sourcemap "^2.0.0"
     lodash.defaultsdeep "^4.6.0"
 
-ember-cli-update@^0.8.0:
-  version "0.8.4"
-  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.8.4.tgz#982973d7c1977ac0f5dcf5f392ce60ee7574e5ed"
+ember-cli-update@0.10.1:
+  version "0.10.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-update/-/ember-cli-update-0.10.1.tgz#5a89961602cd97d4f1a278a9b37fbafd964e6dd6"
   dependencies:
     debug "^3.0.0"
     ember-modules-codemod "^0.2.9"
-    git-diff-apply "^0.5.1"
-    rfc6902-ordered "^2.0.0"
+    execa "^0.8.0"
+    git-diff-apply "^0.6.1"
+    merge-package.json "^1.0.1"
     semver "^5.4.1"
-    three-way-merger "^0.3.0"
     yargs "^10.0.3"
 
 ember-cli-valid-component-name@^1.0.0:
@@ -4270,13 +4270,14 @@ getpass@^0.1.1:
   dependencies:
     assert-plus "^1.0.0"
 
-git-diff-apply@^0.5.1:
-  version "0.5.1"
-  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.5.1.tgz#d643ca73040c287f1e0cefba7c9e49cb035da09b"
+git-diff-apply@^0.6.1:
+  version "0.6.1"
+  resolved "https://registry.yarnpkg.com/git-diff-apply/-/git-diff-apply-0.6.1.tgz#ee2fb5dac5adaf0672a406e1c2b7c00a8058a060"
   dependencies:
     debug "^3.0.0"
     denodeify "^1.2.1"
     fixturify "^0.3.4"
+    fs-extra "^4.0.0"
     ncp "^2.0.0"
     tmp "0.0.33"
     uuid "^3.1.0"
@@ -5724,6 +5725,13 @@ merge-descriptors@1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/merge-descriptors/-/merge-descriptors-1.0.1.tgz#b00aaa556dd8b44568150ec9d1b953f3f90cbb61"
 
+merge-package.json@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/merge-package.json/-/merge-package.json-1.0.1.tgz#160b247e95cdf3105d7b4edad9970aae6223a1bd"
+  dependencies:
+    rfc6902-ordered "^2.1.0"
+    three-way-merger "^0.3.0"
+
 merge-trees@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/merge-trees/-/merge-trees-1.0.1.tgz#ccbe674569787f9def17fd46e6525f5700bbd23e"
@@ -6799,7 +6807,7 @@ resumer@~0.0.0:
   dependencies:
     through "~2.3.4"
 
-rfc6902-ordered@^2.0.0:
+rfc6902-ordered@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/rfc6902-ordered/-/rfc6902-ordered-2.1.0.tgz#19de9061d316149b0994e0f734ff34e09264e9f9"
   dependencies:
