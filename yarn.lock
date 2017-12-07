@@ -2580,7 +2580,7 @@ ember-cli-babel@^6.0.0, ember-cli-babel@^6.0.0-beta.4, ember-cli-babel@^6.0.0-be
     clone "^2.0.0"
     ember-cli-version-checker "^2.0.0"
 
-ember-cli-babel@^6.9.0:
+ember-cli-babel@^6.7.1, ember-cli-babel@^6.9.0:
   version "6.10.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-6.10.0.tgz#81424acd1d97fb13658168121eeb2007d6edee84"
   dependencies:
@@ -2656,13 +2656,6 @@ ember-cli-get-component-path-option@^1.0.0:
 ember-cli-get-dependency-depth@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ember-cli-get-dependency-depth/-/ember-cli-get-dependency-depth-1.0.0.tgz#e0afecf82a2d52f00f28ab468295281aec368d11"
-
-ember-cli-head@^0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/ember-cli-head/-/ember-cli-head-0.3.1.tgz#a407df4880f235280371c437bb5b0b5cbdaea646"
-  dependencies:
-    ember-cli-babel "^6.1.0"
-    ember-cli-htmlbars "^2.0.1"
 
 ember-cli-head@^0.4.0:
   version "0.4.0"
@@ -3063,7 +3056,7 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
+ember-data@~2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
   dependencies:
@@ -3273,12 +3266,12 @@ ember-native-dom-helpers@^0.5.3, ember-native-dom-helpers@^0.5.4:
     broccoli-funnel "^1.1.0"
     ember-cli-babel "^6.6.0"
 
-ember-page-title@^3.1.6:
-  version "3.2.2"
-  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-3.2.2.tgz#241effbc8228ecfb75e33540f6707003fdf6db31"
+ember-page-title@4.0.1:
+  version "4.0.1"
+  resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-4.0.1.tgz#0d96f56a98e17fb31ff66c7e504966f66c786fa9"
   dependencies:
-    ember-cli-babel "^6.0.0"
-    ember-cli-head "^0.3.1"
+    ember-cli-babel "^6.7.1"
+    ember-cli-head "^0.4.0"
     ember-cli-htmlbars "^2.0.1"
 
 ember-power-calendar@^0.6.0:
