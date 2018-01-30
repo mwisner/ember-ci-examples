@@ -3063,7 +3063,7 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
+ember-data@~2.17.0:
   version "2.17.0"
   resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
   dependencies:
@@ -3119,11 +3119,11 @@ ember-factory-for-polyfill@^1.1.0:
   dependencies:
     ember-cli-version-checker "^1.2.0"
 
-ember-feature-flags@^3.0.0:
-  version "3.0.0"
-  resolved "https://registry.yarnpkg.com/ember-feature-flags/-/ember-feature-flags-3.0.0.tgz#3140a69351cd14dd29e000f0447b944046a5ef4b"
+ember-feature-flags@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/ember-feature-flags/-/ember-feature-flags-4.1.0.tgz#e3ab80a02ccef1877f568996afc3191dc3690d10"
   dependencies:
-    ember-cli-babel "^5.1.6"
+    ember-cli-babel "^6.6.0"
 
 "ember-fetch@^2.1.0 || ^3.0.0", ember-fetch@^3.3.0:
   version "3.3.1"
