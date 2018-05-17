@@ -3063,9 +3063,9 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
@@ -3292,12 +3292,12 @@ ember-power-calendar@^0.6.0:
     ember-concurrency "^0.8.1"
     ember-moment "^7.3.0"
 
-ember-power-select-blockless@0.3.1:
-  version "0.3.1"
-  resolved "https://registry.yarnpkg.com/ember-power-select-blockless/-/ember-power-select-blockless-0.3.1.tgz#130a442d88e95587239d6887fb7443ab2f86d528"
+ember-power-select-blockless@0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ember-power-select-blockless/-/ember-power-select-blockless-0.4.0.tgz#cdcbe07e1f4ae52d9c5cde0884d21334ce05be7b"
   dependencies:
-    ember-cli-babel "^5.1.6"
-    ember-cli-htmlbars "^1.0.3"
+    ember-cli-babel "^6.6.0"
+    ember-cli-htmlbars "^2.0.1"
     ember-power-select "^1.5.0"
 
 ember-power-select@1.10.2:
