@@ -16,6 +16,10 @@ abbrev@1:
   version "1.1.0"
   resolved "https://registry.yarnpkg.com/abbrev/-/abbrev-1.1.0.tgz#d0554c2256636e2f56e7c2e5ad183f859428d81f"
 
+abortcontroller-polyfill@^1.1.9:
+  version "1.1.9"
+  resolved "https://registry.yarnpkg.com/abortcontroller-polyfill/-/abortcontroller-polyfill-1.1.9.tgz#9fefe359fda2e9e0932dc85e6106453ac393b2da"
+
 accepts@1.3.3:
   version "1.3.3"
   resolved "https://registry.yarnpkg.com/accepts/-/accepts-1.3.3.tgz#c3ca7434938648c3e0d9c1e328dd68b622c284ca"
@@ -1588,7 +1592,7 @@ broccoli-middleware@^1.0.0:
     handlebars "^4.0.4"
     mime "^1.2.11"
 
-broccoli-persistent-filter@^1.0.3, broccoli-persistent-filter@^1.1.6, broccoli-persistent-filter@^1.2.0, broccoli-persistent-filter@^1.4.0, broccoli-persistent-filter@^1.4.2:
+broccoli-persistent-filter@^1.0.3, broccoli-persistent-filter@^1.1.6, broccoli-persistent-filter@^1.2.0, broccoli-persistent-filter@^1.4.0, broccoli-persistent-filter@^1.4.2, broccoli-persistent-filter@^1.4.3:
   version "1.4.3"
   resolved "https://registry.yarnpkg.com/broccoli-persistent-filter/-/broccoli-persistent-filter-1.4.3.tgz#3511bc52fc53740cda51621f58a28152d9911bc1"
   dependencies:
@@ -1697,6 +1701,17 @@ broccoli-templater@^1.0.0:
     broccoli-filter "^0.1.11"
     broccoli-stew "^1.2.0"
     lodash.template "^3.3.2"
+
+broccoli-templater@^2.0.1:
+  version "2.0.1"
+  resolved "https://registry.yarnpkg.com/broccoli-templater/-/broccoli-templater-2.0.1.tgz#2e001e45aeba7fa2eb9b19a54c9c61b741935799"
+  dependencies:
+    broccoli-persistent-filter "^1.4.3"
+    broccoli-plugin "^1.3.0"
+    fs-tree-diff "^0.5.7"
+    lodash.template "^4.4.0"
+    rimraf "^2.6.2"
+    walk-sync "^0.3.2"
 
 broccoli-uglify-sourcemap@^2.0.0:
   version "2.0.0"
@@ -3063,9 +3078,9 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
@@ -3125,7 +3140,7 @@ ember-feature-flags@^3.0.0:
   dependencies:
     ember-cli-babel "^5.1.6"
 
-"ember-fetch@^2.1.0 || ^3.0.0", ember-fetch@^3.3.0:
+"ember-fetch@^2.1.0 || ^3.0.0":
   version "3.3.1"
   resolved "https://registry.yarnpkg.com/ember-fetch/-/ember-fetch-3.3.1.tgz#47f7c0d282bfe61d4899f3a9d5af9f71e5558910"
   dependencies:
@@ -3135,6 +3150,19 @@ ember-feature-flags@^3.0.0:
     ember-cli-babel "^6.8.1"
     node-fetch "^2.0.0-alpha.3"
     whatwg-fetch "^2.0.3"
+
+ember-fetch@^5.0.1:
+  version "5.0.1"
+  resolved "https://registry.yarnpkg.com/ember-fetch/-/ember-fetch-5.0.1.tgz#a1acc230be3454dd3c2476aaa72ea05bebbd7f9d"
+  dependencies:
+    abortcontroller-polyfill "^1.1.9"
+    broccoli-concat "^3.2.2"
+    broccoli-merge-trees "^2.0.0"
+    broccoli-stew "^1.4.2"
+    broccoli-templater "^2.0.1"
+    ember-cli-babel "^6.8.2"
+    node-fetch "^2.0.0-alpha.9"
+    yetch "^0.0.1"
 
 ember-file-upload@^2.1.1:
   version "2.1.1"
@@ -4227,6 +4255,15 @@ fs-tree-diff@^0.4.3:
 fs-tree-diff@^0.5.2, fs-tree-diff@^0.5.3, fs-tree-diff@^0.5.4, fs-tree-diff@^0.5.6:
   version "0.5.6"
   resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.5.6.tgz#342665749e8dca406800b672268c8f5073f3e623"
+  dependencies:
+    heimdalljs-logger "^0.1.7"
+    object-assign "^4.1.0"
+    path-posix "^1.0.0"
+    symlink-or-copy "^1.1.8"
+
+fs-tree-diff@^0.5.7:
+  version "0.5.7"
+  resolved "https://registry.yarnpkg.com/fs-tree-diff/-/fs-tree-diff-0.5.7.tgz#315e2b098d5fe7f622880ac965b1b051868ac871"
   dependencies:
     heimdalljs-logger "^0.1.7"
     object-assign "^4.1.0"
@@ -5560,7 +5597,7 @@ lodash.template@^3.3.2:
     lodash.restparam "^3.0.0"
     lodash.templatesettings "^3.0.0"
 
-lodash.template@^4.2.5:
+lodash.template@^4.2.5, lodash.template@^4.4.0:
   version "4.4.0"
   resolved "https://registry.yarnpkg.com/lodash.template/-/lodash.template-4.4.0.tgz#e73a0385c8355591746e020b99679c690e68fba0"
   dependencies:
@@ -5976,6 +6013,10 @@ node-fetch@^1.3.3:
 node-fetch@^2.0.0-alpha.3:
   version "2.0.0-alpha.8"
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.0.0-alpha.8.tgz#f586cf6730ce30431c7d4528ce561d81add8ba90"
+
+node-fetch@^2.0.0-alpha.9:
+  version "2.1.2"
+  resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.1.2.tgz#ab884e8e7e57e38a944753cec706f788d1768bb5"
 
 node-gyp@^3.3.1:
   version "3.6.2"
@@ -6856,7 +6897,7 @@ right-align@^0.1.1:
   dependencies:
     align-text "^0.1.1"
 
-rimraf@2, rimraf@^2.2.8, rimraf@^2.3.2, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.1, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1:
+rimraf@2, rimraf@^2.2.8, rimraf@^2.3.2, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.4.4, rimraf@^2.5.1, rimraf@^2.5.3, rimraf@^2.5.4, rimraf@^2.6.1, rimraf@^2.6.2:
   version "2.6.2"
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
@@ -8061,3 +8102,7 @@ yargs@~3.27.0:
 yeast@0.1.2:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/yeast/-/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
+
+yetch@^0.0.1:
+  version "0.0.1"
+  resolved "https://registry.yarnpkg.com/yetch/-/yetch-0.0.1.tgz#76f1729b2c2c667e23c3c2da90472a4897eca004"
