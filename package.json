@@ -59,7 +59,7 @@
     "ember-freestyle": "^0.6.1",
     "ember-light-table": "^1.10.0",
     "ember-load-initializers": "^1.0.0",
-    "ember-moment": "^7.3.1",
+    "ember-moment": "7.7.0",
     "ember-page-title": "^3.1.6",
     "ember-power-calendar": "^0.6.0",
     "ember-power-select": "1.10.2",
