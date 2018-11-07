@@ -3040,6 +3040,7 @@ ember-cookies@^0.0.13:
 ember-copy@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/ember-copy/-/ember-copy-1.0.0.tgz#426554ba6cf65920f31d24d0a3ca2cb1be16e4aa"
+  integrity sha512-aiZNAvOmdemHdvZNn0b5b/0d9g3JFpcOsrDgfhYEbfd7SzE0b69YiaVK2y3wjqfjuuiA54vOllGN4pjSzECNSw==
   dependencies:
     ember-cli-babel "^6.6.0"
 
@@ -3064,7 +3065,8 @@ ember-data-model-fragments@^2.14.0:
 
 ember-data@~2.17.0:
   version "2.17.1"
-  resolved "http://registry.npmjs.org/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
@@ -3275,6 +3277,7 @@ ember-native-dom-helpers@^0.5.3, ember-native-dom-helpers@^0.5.4:
 ember-page-title@^5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/ember-page-title/-/ember-page-title-5.0.0.tgz#6de61ecfd0278246c2f57ab29f3affd208e0459d"
+  integrity sha512-BQ3/yeKUWQejieZdnnR/lo51n8GYuqzEHrok3nw9nAkOCp81kJTf47EAUjp/ZbDJeWfm1uTfsXVacjwaNW9GHQ==
   dependencies:
     ember-cli-babel "^6.6.0"
     ember-cli-head "^0.4.0"
