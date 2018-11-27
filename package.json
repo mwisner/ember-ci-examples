@@ -20,7 +20,7 @@
     "bower": "^1.8.0",
     "broccoli-asset-rev": "^2.4.5",
     "ember-ajax": "^3.0.0",
-    "ember-api-actions": "^0.1.7",
+    "ember-api-actions": "^0.2.6",
     "ember-block-slots": "^1.1.10",
     "ember-bootstrap": "^1.0.0-alpha.12",
     "ember-bootstrap-changeset-validations": "^1.0.0-alpha.2",
