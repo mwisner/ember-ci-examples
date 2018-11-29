@@ -3040,6 +3040,7 @@ ember-concurrency@^0.8.12:
 ember-concurrency@^0.8.23:
   version "0.8.23"
   resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-0.8.23.tgz#a291bc719890cd29fce61bab7c1ab73756edaede"
+  integrity sha512-dN190o1hYsiGNniW0E4s49kbWYkeak8B0v2LncXvuICkyhxkLz/ssGOUEFrmw4paChs/UFB5vYDbqYNKx6sC8Q==
   dependencies:
     babel-core "^6.24.1"
     ember-cli-babel "^6.8.2"
@@ -3073,7 +3074,8 @@ ember-data-model-fragments@^2.14.0:
 
 ember-data@~2.17.0:
   version "2.17.1"
-  resolved "http://registry.npmjs.org/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
