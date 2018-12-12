@@ -3019,7 +3019,7 @@ ember-composable-helpers@^2.0.1:
     broccoli-funnel "^1.0.1"
     ember-cli-babel "^6.1.0"
 
-ember-concurrency@^0.8.1, ember-concurrency@^0.8.7:
+ember-concurrency@^0.8.1:
   version "0.8.10"
   resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-0.8.10.tgz#5788d1a43ed1e73562495719b29efe903c789675"
   dependencies:
@@ -3035,6 +3035,15 @@ ember-concurrency@^0.8.12:
     babel-core "^6.24.1"
     ember-cli-babel "^6.8.2"
     ember-getowner-polyfill "^2.0.0"
+    ember-maybe-import-regenerator "^0.1.5"
+
+ember-concurrency@^0.8.26:
+  version "0.8.26"
+  resolved "https://registry.yarnpkg.com/ember-concurrency/-/ember-concurrency-0.8.26.tgz#7aeaa5c00e87903a57726823efe68787a83154b0"
+  integrity sha512-4GrtZdNKUMTsRbWzYwmUFXW+9pqab+78smw9Nn4ECUl1yuzIyHVcV7zKsgxgPISIGwrY6HwhgmFBCxipyyYP5w==
+  dependencies:
+    babel-core "^6.24.1"
+    ember-cli-babel "^6.8.2"
     ember-maybe-import-regenerator "^0.1.5"
 
 ember-cookies@^0.0.13:
@@ -3063,9 +3072,10 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
