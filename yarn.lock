@@ -2843,9 +2843,10 @@ ember-cli-showdown@^3.2.1:
     ember-getowner-polyfill "^1.2.2"
     showdown "^1.6.4"
 
-ember-cli-sri@^2.1.0:
+ember-cli-sri@^2.1.1:
   version "2.1.1"
   resolved "https://registry.yarnpkg.com/ember-cli-sri/-/ember-cli-sri-2.1.1.tgz#971620934a4b9183cf7923cc03e178b83aa907fd"
+  integrity sha1-lxYgk0pLkYPPeSPMA+F4uDqpB/0=
   dependencies:
     broccoli-sri-hash "^2.1.0"
 
@@ -3063,9 +3064,10 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
