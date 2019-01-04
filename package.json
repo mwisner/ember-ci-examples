@@ -46,7 +46,7 @@
     "ember-cli-shims": "^1.1.0",
     "ember-cli-sri": "^2.1.0",
     "ember-cli-uglify": "^2.0.0",
-    "ember-cli-update": "^0.8.0",
+    "ember-cli-update": "^0.27.7",
     "ember-concurrency": "^0.8.7",
     "ember-crumbly": "^2.0.0-alpha.1",
     "ember-data": "~2.17.0",
