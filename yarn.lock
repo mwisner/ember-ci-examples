@@ -1505,7 +1505,7 @@ broccoli-funnel@^1.0.0, broccoli-funnel@^1.0.1, broccoli-funnel@^1.1.0, broccoli
     symlink-or-copy "^1.0.0"
     walk-sync "^0.3.1"
 
-broccoli-funnel@^2.0.0:
+broccoli-funnel@^2.0.0, broccoli-funnel@^2.0.1:
   version "2.0.1"
   resolved "https://registry.yarnpkg.com/broccoli-funnel/-/broccoli-funnel-2.0.1.tgz#6823c73b675ef78fffa7ab800f083e768b51d449"
   dependencies:
@@ -1581,6 +1581,14 @@ broccoli-merge-trees@^2.0.0:
     broccoli-plugin "^1.3.0"
     merge-trees "^1.0.1"
 
+broccoli-merge-trees@^3.0.1:
+  version "3.0.2"
+  resolved "https://registry.yarnpkg.com/broccoli-merge-trees/-/broccoli-merge-trees-3.0.2.tgz#f33b451994225522b5c9bcf27d59decfd8ba537d"
+  integrity sha512-ZyPAwrOdlCddduFbsMyyFzJUrvW6b04pMvDiAQZrCwghlvgowJDY+EfoXn+eR1RRA5nmGHJ+B68T63VnpRiT1A==
+  dependencies:
+    broccoli-plugin "^1.3.0"
+    merge-trees "^2.0.0"
+
 broccoli-middleware@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/broccoli-middleware/-/broccoli-middleware-1.0.0.tgz#92f4e1fb9a791ea986245a7077f35cc648dab097"
@@ -1648,6 +1656,17 @@ broccoli-sass-source-maps@^2.0.0:
     include-path-searcher "^0.1.0"
     mkdirp "^0.3.5"
     node-sass "^4.1.0"
+    object-assign "^2.0.0"
+    rsvp "^3.0.6"
+
+broccoli-sass-source-maps@^4.0.0:
+  version "4.0.0"
+  resolved "https://registry.yarnpkg.com/broccoli-sass-source-maps/-/broccoli-sass-source-maps-4.0.0.tgz#1ee4c10a810b10955b0502e28f85ab672f5961a2"
+  integrity sha512-Bjgg0Q626pPwiPU+Sk7jJNjblPEwhceuTzMPw2F5XY+FzdTBMYQKuJYlJ4x2DdsubE95e3rVQeSZ68jA13Nhzg==
+  dependencies:
+    broccoli-caching-writer "^3.0.3"
+    include-path-searcher "^0.1.0"
+    mkdirp "^0.3.5"
     object-assign "^2.0.0"
     rsvp "^3.0.6"
 
@@ -1941,6 +1960,11 @@ clean-css@^3.4.5:
   dependencies:
     commander "2.8.x"
     source-map "0.4.x"
+
+clean-up-path@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/clean-up-path/-/clean-up-path-1.0.0.tgz#de9e8196519912e749c9eaf67c13d64fac72a3e5"
+  integrity sha512-PHGlEF0Z6976qQyN6gM7kKH6EH0RdfZcc8V+QhFe36eRxV0SMH5OUBZG7Bxa9YcreNzyNbK63cGiZxdSZgosRw==
 
 cli-cursor@^2.1.0:
   version "2.1.0"
@@ -2812,14 +2836,15 @@ ember-cli-sass@^6.1.3:
     ember-cli-version-checker "^1.0.2"
     merge "^1.2.0"
 
-ember-cli-sass@^7.0.0:
-  version "7.0.0"
-  resolved "https://registry.yarnpkg.com/ember-cli-sass/-/ember-cli-sass-7.0.0.tgz#24bdf6e6c13610c57cbddb1f077715588aedcf13"
+ember-cli-sass@^9.0.1:
+  version "9.0.1"
+  resolved "https://registry.yarnpkg.com/ember-cli-sass/-/ember-cli-sass-9.0.1.tgz#cfbcbdaf679e44d9603b324b21e8d97cd605077b"
+  integrity sha512-t94vuRp44MftcIXzG/w7zAnSUN4jlOmqF+9ia9+L0LnQgQK/yfi5NSHEd9Sc6APOEo46nnU29gxE2v9lf7uf5w==
   dependencies:
-    broccoli-funnel "^1.0.0"
-    broccoli-merge-trees "^1.1.0"
-    broccoli-sass-source-maps "^2.0.0"
-    ember-cli-version-checker "^1.0.2"
+    broccoli-funnel "^2.0.1"
+    broccoli-merge-trees "^3.0.1"
+    broccoli-sass-source-maps "^4.0.0"
+    ember-cli-version-checker "^2.1.0"
 
 ember-cli-shims@^1.1.0:
   version "1.1.0"
@@ -3063,9 +3088,10 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
@@ -4233,6 +4259,17 @@ fs-tree-diff@^0.5.2, fs-tree-diff@^0.5.3, fs-tree-diff@^0.5.4, fs-tree-diff@^0.5
     path-posix "^1.0.0"
     symlink-or-copy "^1.1.8"
 
+fs-updater@^1.0.4:
+  version "1.0.4"
+  resolved "https://registry.yarnpkg.com/fs-updater/-/fs-updater-1.0.4.tgz#2329980f99ae9176e9a0e84f7637538a182ce63b"
+  integrity sha512-0pJX4mJF/qLsNEwTct8CdnnRdagfb+LmjRPJ8sO+nCnAZLW0cTmz4rTgU25n+RvTuWSITiLKrGVJceJPBIPlKg==
+  dependencies:
+    can-symlink "^1.0.0"
+    clean-up-path "^1.0.0"
+    heimdalljs "^0.2.5"
+    heimdalljs-logger "^0.1.9"
+    rimraf "^2.6.2"
+
 fs.realpath@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/fs.realpath/-/fs.realpath-1.0.0.tgz#1504ad2523158caa40db4a2787cb01411994ea4f"
@@ -4373,6 +4410,18 @@ glob@^5.0.10, glob@^5.0.15:
 glob@^7.0.0, glob@^7.0.3, glob@^7.0.4, glob@^7.0.5, glob@^7.1.1, glob@^7.1.2, glob@~7.1.1, glob@~7.1.2:
   version "7.1.2"
   resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.2.tgz#c19c9df9a028702d678612384a6552404c636d15"
+  dependencies:
+    fs.realpath "^1.0.0"
+    inflight "^1.0.4"
+    inherits "2"
+    minimatch "^3.0.4"
+    once "^1.3.0"
+    path-is-absolute "^1.0.0"
+
+glob@^7.1.3:
+  version "7.1.3"
+  resolved "https://registry.yarnpkg.com/glob/-/glob-7.1.3.tgz#3960832d3f1574108342dafd3a67b332c0969df1"
+  integrity sha512-vcfuiIxogLV4DlGBHIUOwI0IbrJ8HWPc4MU7HzviGeNho/UJDfi6B5p3sHeWIQ0KGIU0Jpxi5ZHxemQfLkkAwQ==
   dependencies:
     fs.realpath "^1.0.0"
     inflight "^1.0.4"
@@ -4584,9 +4633,24 @@ heimdalljs-logger@^0.1.7:
     debug "^2.2.0"
     heimdalljs "^0.2.0"
 
+heimdalljs-logger@^0.1.9:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/heimdalljs-logger/-/heimdalljs-logger-0.1.10.tgz#90cad58aabb1590a3c7e640ddc6a4cd3a43faaf7"
+  integrity sha512-pO++cJbhIufVI/fmB/u2Yty3KJD0TqNPecehFae0/eps0hkZ3b4Zc/PezUMOpYuHFQbA7FxHZxa305EhmjLj4g==
+  dependencies:
+    debug "^2.2.0"
+    heimdalljs "^0.2.6"
+
 heimdalljs@^0.2.0, heimdalljs@^0.2.1, heimdalljs@^0.2.3:
   version "0.2.5"
   resolved "https://registry.yarnpkg.com/heimdalljs/-/heimdalljs-0.2.5.tgz#6aa54308eee793b642cff9cf94781445f37730ac"
+  dependencies:
+    rsvp "~3.2.1"
+
+heimdalljs@^0.2.5, heimdalljs@^0.2.6:
+  version "0.2.6"
+  resolved "https://registry.yarnpkg.com/heimdalljs/-/heimdalljs-0.2.6.tgz#b0eebabc412813aeb9542f9cc622cb58dbdcd9fe"
+  integrity sha512-o9bd30+5vLBvBtzCPwwGqpry2+n0Hi6H1+qwt6y+0kwRHGGF8TFIhJPmnuM0xO97zaKrDZMwO/V56fAnn8m/tA==
   dependencies:
     rsvp "~3.2.1"
 
@@ -5775,6 +5839,14 @@ merge-trees@^1.0.1:
     rimraf "^2.4.3"
     symlink-or-copy "^1.0.0"
 
+merge-trees@^2.0.0:
+  version "2.0.0"
+  resolved "https://registry.yarnpkg.com/merge-trees/-/merge-trees-2.0.0.tgz#a560d796e566c5d9b2c40472a2967cca48d85161"
+  integrity sha512-5xBbmqYBalWqmhYm51XlohhkmVOua3VAUrrWh8t9iOkaLpS6ifqm/UVuUjQCeDVJ9Vx3g2l6ihfkbLSTeKsHbw==
+  dependencies:
+    fs-updater "^1.0.4"
+    heimdalljs "^0.2.5"
+
 merge@^1.1.3, merge@^1.2.0:
   version "1.2.0"
   resolved "https://registry.yarnpkg.com/merge/-/merge-1.2.0.tgz#7531e39d4949c281a66b8c5a6e0265e8b05894da"
@@ -6861,6 +6933,13 @@ rimraf@2, rimraf@^2.2.8, rimraf@^2.3.2, rimraf@^2.3.4, rimraf@^2.4.3, rimraf@^2.
   resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.2.tgz#2ed8150d24a16ea8651e6d6ef0f47c4158ce7a36"
   dependencies:
     glob "^7.0.5"
+
+rimraf@^2.6.2:
+  version "2.6.3"
+  resolved "https://registry.yarnpkg.com/rimraf/-/rimraf-2.6.3.tgz#b2d104fe0d8fb27cf9e0a1cda8262dd3833c6cab"
+  integrity sha512-mwqeW5XsA2qAejG46gYdENaxXjx9onRNCfn7L0duuP4hCuTIi/QO7PDK07KJfp1d+izWPrzEJDcSqBa0OZQriA==
+  dependencies:
+    glob "^7.1.3"
 
 rimraf@~2.2.6:
   version "2.2.8"
