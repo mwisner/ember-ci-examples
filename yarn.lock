@@ -3063,9 +3063,10 @@ ember-data-model-fragments@^2.14.0:
     git-repo-info "^1.4.1"
     npm-git-info "^1.0.3"
 
-ember-data@2.17.0:
-  version "2.17.0"
-  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.0.tgz#d952cf98d7461abf41ed6d248cf2a5836c623276"
+ember-data@~2.17.0:
+  version "2.17.1"
+  resolved "https://registry.yarnpkg.com/ember-data/-/ember-data-2.17.1.tgz#5f8c0914fc701ecd8324d583c987a3d9192f0ed7"
+  integrity sha512-nCWgX8FYtPo0gM5qot/g4/iDwMrTLixlOVZyDiJINFRfN0igTuYg/CDseuqorp58LzrlO42YTiPRhK3VvqXwtw==
   dependencies:
     amd-name-resolver "0.0.7"
     babel-plugin-ember-modules-api-polyfill "^1.4.2"
@@ -3369,9 +3370,10 @@ ember-rfc176-data@^0.3.0:
   version "0.3.1"
   resolved "https://registry.yarnpkg.com/ember-rfc176-data/-/ember-rfc176-data-0.3.1.tgz#6a5a4b8b82ec3af34f3010965fa96b936ca94519"
 
-ember-route-action-helper@^2.0.3:
-  version "2.0.6"
-  resolved "https://registry.yarnpkg.com/ember-route-action-helper/-/ember-route-action-helper-2.0.6.tgz#1d50454350d7112be326ab44058f06cf291d5fd9"
+ember-route-action-helper@^2.0.7:
+  version "2.0.7"
+  resolved "https://registry.yarnpkg.com/ember-route-action-helper/-/ember-route-action-helper-2.0.7.tgz#3b946a613c88bb82a039c974f64f5b6f56d5e0bf"
+  integrity sha512-8GEnB9hfPdh5U19ubmojVZQBu6aUIfQuiv6xnsdss7V3TMspjI1Ak8lqoqEzww8Dv+sxv8YWma0IhKPFxrVJag==
   dependencies:
     ember-cli-babel "^6.8.1"
     ember-getowner-polyfill "^2.0.0"
